@@ -6,6 +6,10 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  # adding the following lines to fix the precompile issue
+  config.serve_static_assets = true
+  config.assets.initialize_on_precompile = false
+  
   # Do not eager load code on boot.
   config.eager_load = false
 

@@ -5,7 +5,7 @@ Rails.application.configure do
   config.cache_classes = true
 
   # adding the following lines to fix the precompile issue
-  config.serve_static_assets = true
+  #config.serve_static_assets = true
   config.assets.initialize_on_precompile = false  
   
   # Eager load code on boot. This eager loads most of Rails and

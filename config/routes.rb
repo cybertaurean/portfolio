@@ -54,5 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'pages#welcome'
+  get '/portfolio' => 'pages#portfolio'
   resources :pages
 end

@@ -4,7 +4,7 @@ GEM
     actionmailer (4.1.1)
       actionpack (= 4.2.5.1)
       actionview (= 4.2.11.1)
-      mail (~> 2.5.4)
+      mail (>= 2.5.5)
     actionpack (4.2.5.1)
       actionview (= 4.2.11.1)
       activesupport (= 4.1.1)
